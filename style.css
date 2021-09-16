@@ -1,0 +1,116 @@
+body{
+    background-image: url(./Nico.Nico.Singer.full.2326196.jpg);
+    background-position-x: -100px;
+}
+.main{
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    left: 38%;
+    padding: 10px;
+    background: rgba(0,0,0,0.6);
+    padding: 50px 30px;
+    width: 300px;
+    border-radius: 15px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./Nico.Nico.Singer.full.2326196.jpg);
+    background-size: cover;
+    border: 1px solid white;
+    margin-top: 100px;
+}
+input[type="text"]
+{
+    padding: 20px 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    outline: none;
+    border: 2px solid #29d8ff;
+    border-radius: 30px;
+    color: white;
+    background: none;
+    transition: 0.3s;
+    width: 130px;
+}
+button
+{
+    margin-left: px;
+    padding: 15px 35px;
+    border: none;
+    background: #29d8ff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.title{
+    text-transform: uppercase;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+form input:focus{
+
+    border: 2px solid #3bff29;
+    width: 200px;
+}
+p{
+    display: inline-block;
+    color: white;
+}
+.checkboxes{
+    margin-top: -20px;
+}
+button:hover{
+    background:  #3bff29;
+    padding: 20px 40px;
+}
+footer{
+    
+    position: absolute;
+    left: 44%;
+    margin-top: 550px;
+    width: 200px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+footer img{
+    border-radius: 100%;
+    border: 1px solid white;
+}
+.copy{
+    position: absolute;
+    top: -5px;
+    padding-left: 2px;
+}
+
+a[href="http://facebook.com/ducker.hasuko"]
+{
+    text-decoration: none;
+    color: white;
+}
+.click-here{
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 47%;
+
+}
+.bar{
+    position: relative;
+    background-color: #3bff29;
+    width: 1px;
+    height: 3px;
+    top: 5px;
+    transition-property: width;
+    transition: 1s;
+}
+footer:hover .bar{
+    width: 200px;
+}
