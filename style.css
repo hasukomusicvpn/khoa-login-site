@@ -2,7 +2,7 @@ body{
     background-image: url(./images/Nico.Nico.Singer.full.2326196.jpg);
     background-position-x: -100px;
 }
-.main{
+-o-.main{
     position: absolute;
     width: 200px;
     text-align: center;
@@ -12,7 +12,22 @@ body{
     padding: 50px 30px;
     width: 300px;
     border-radius: 15px;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/Nico.Nico.Singer.full.2326196.jpg));
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/Nico.Nico.Singer.full.2326196.jpg);
+    background-size: cover;
+    border: 1px solid white;
+    margin-top: 100px;
+}
+-webkit-.main{
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    left: 38%;
+    padding: 10px;
+    background: rgba(0,0,0,0.6);
+    padding: 50px 30px;
+    width: 300px;
+    border-radius: 15px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./images/Nico.Nico.Singer.full.2326196.jpg);
     background-size: cover;
     border: 1px solid white;
     margin-top: 100px;
